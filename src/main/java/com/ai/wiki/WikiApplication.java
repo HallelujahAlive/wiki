@@ -10,4 +10,6 @@ public class WikiApplication {
         SpringApplication.run(WikiApplication.class, args);
     }
 
+    public static void test(){}
+
 }
