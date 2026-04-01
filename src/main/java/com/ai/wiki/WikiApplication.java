@@ -10,6 +10,8 @@ public class WikiApplication {
         SpringApplication.run(WikiApplication.class, args);
     }
 
-    public static void test(){}
-
+    public static void test(){
+        System.out.println("hello world!!!");
+    }
+//readme.md函数未将函数提交至github
 }
