@@ -14,11 +14,11 @@ public class TestController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "hello" + testHello;
+        return "hello World!" + testHello;
     }
 
     @PostMapping("/hello/post")
     public String helloPost(String name){
-        return "hello Post "+name;
+        return "hello Post!!! "+name;
     }
 }
